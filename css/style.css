@@ -1,12 +1,16 @@
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
 }
-
 
 .header_top{
     display: flex;
     background-color: #FFFFFF;
     justify-content: space-around;
+    width: 100%;
     
 }
 
@@ -36,12 +40,13 @@ body {
 
 .main_header{
     background-color: #00AADB;
+    width: 100%;
 }
 
 .section_logo{
     display: flex;
     justify-content: center;
-    border-bottom: solid 1px white;
+    border-bottom: 1px solid rgb(156, 222, 241);
     align-items: center;
 }
 .box_section_main{
@@ -69,12 +74,14 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 .box_directo{
     border: solid white 1px;
     display: flex;
     align-items: center;
     padding: 0;
+    border-radius: 4px;
 }
 .fa-circle{
     color: white;
@@ -86,11 +93,11 @@ body {
     font-family: Roboto, arial, helvetica, sans-serif;
     font-size: 10px;
     margin: 5px;
-    border-radius: 4px;
+    
 }
 
 .box_nav{
-    padding: 15px;
+    padding: 12px;
     
 }
 .nav_link{
@@ -112,4 +119,70 @@ body {
 
 i:hover{
     color:#92DBF0 ;
+}
+
+
+.container{
+    width: 980px;
+    border: solid black;
+}
+
+.main_box_noticias{
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0px -125px 98px -70px rgba(0,0,0,0.92);
+}
+
+
+
+.img_noticia1{
+    width: 100%;
+    box-shadow: inset 0px -125px 98px -70px rgba(0,0,0,0.92);
+    
+}
+.box_img{
+    position: relative;
+    
+    
+}
+.box_text{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.text_noticia1{
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 37px;
+    margin: 0 25px 45px 25px;
+    text-align:center;
+    font-weight: bold;
+    color: white;
+}
+.text_noticia1:hover{
+    color: rgba(255, 255, 255, 0.409);
+}
+.img_noticias{
+    width: 500px;
+}
+
+
+.box_title{
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aside_title{
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+}
+.aside_span{
+    border-bottom: solid #0F6982;
+    width: 5%;
+}
+.aside_title:hover{
+    color: rgb(62, 56, 56);
 }
