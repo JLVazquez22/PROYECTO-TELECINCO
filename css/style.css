@@ -186,3 +186,33 @@ i:hover{
 .aside_title:hover{
     color: rgb(62, 56, 56);
 }
+
+
+.main_box_noticias2{
+    border: solid brown;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_colum_noticias{
+    border: solid rebeccapurple;
+    background-color: white;
+    width: 48%;
+}
+
+.img_pedro{
+    width: 100%;
+}
+
+.text_titular1{
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 35px;
+    margin: 10px 15px 45px 15px;
+}
+
+.text_titular2{
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0 15px 15px 15px ;
+    color: white;
+}
