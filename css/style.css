@@ -129,10 +129,10 @@ i:hover{
 
 .container{
     width: 980px;
-    border: solid black;
+    margin-top: 15px;
 }
 
-.main_box_noticias{
+.main_box_1{
     display: flex;
     flex-direction: column;
     box-shadow: inset 0px -125px 98px -70px rgba(0,0,0,0.92);
@@ -145,12 +145,13 @@ i:hover{
     box-shadow: inset 0px -125px 98px -70px rgba(0,0,0,0.92);
     
 }
-.box_img{
+.main_box_img{
     position: relative;
+    background-color: white;
     
     
 }
-.box_text{
+.main_box_text{
     position: absolute;
     bottom: 0;
     
@@ -163,6 +164,7 @@ i:hover{
     text-align:center;
     font-weight: bold;
     color: white;
+    background-color: rgba(0, 0, 0, 0.438);
 }
 .text_noticia1:hover{
     color: rgba(255, 255, 255, 0.409);
@@ -173,36 +175,40 @@ i:hover{
 
 
 .box_title{
-    border: solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 0 15px 0;
 }
-.aside_title{
+.section_title{
     font-family: Roboto, arial, helvetica, sans-serif;
     font-size: 25px;
-    margin: 20px 0 10px 0;
+    margin: 20px 0 8px 0;
 }
-.aside_span{
+.section_span{
     border-bottom: solid #0F6982;
     width: 5%;
 }
+.section_span2{
+    border-bottom: solid #00AADB;
+    width: 5%;
+}
+
 .aside_title:hover{
     color: rgb(62, 56, 56);
 }
 
 
-.main_box_noticias2{
-    border: solid brown;
+.main_box_2{
     display: flex;
     justify-content: space-between;
 }
 
 .section_colum_noticias{
-    border: solid rebeccapurple;
     background-color: white;
-    width: 48%;
+    width: 49%;
+    
 }
 
 .img_pedro{
@@ -213,6 +219,7 @@ i:hover{
     font-family: Roboto, arial, helvetica, sans-serif;
     font-size: 33px;
     margin: 10px 15px 45px 15px;
+    background-color: white;
 }
 
 .text_titular2{
@@ -220,4 +227,145 @@ i:hover{
     font-size: 20px;
     margin: 0 15px 15px 15px ;
     color: white;
+}
+
+.sub_section_colum_noticias{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box_article_main{
+    width: 48%;
+    background-color: white;
+}
+
+.img_article{
+    width: 100%;
+}
+
+.text_titular3{
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 17px;
+    margin:5px 10px 10px 10px ;
+}
+
+.section_colum_noticias2{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_box_img2{
+    position: relative;
+    background-color: white;
+    
+    
+}
+
+.sub_section_colum_noticias2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_main{
+    width: 100%;
+    margin-top: 25px;
+    
+}
+
+.footer_section1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1A1A;
+    
+}
+
+.section_box_footer{
+    margin: 5px 0 40px 0;
+    width: 980px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_box_footer{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_article_footer{
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 19px;
+    margin: 0px 0px 15px 0px;
+    color: white;
+    font-weight: lighter;
+}
+
+.link_article_footer{
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 16px;
+    color: gray;
+    margin: 10px 0px 7px 0px;
+    text-decoration: none;
+}
+
+.link_article_footer:hover{
+    color: rgb(87, 83, 83);
+}
+
+.footer_section2{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_box_footer2{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+.article_box_footer2{
+    margin: 1px;
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 25px 0 15px 0;
+}
+.img_article_logo{
+    width: 80px;
+}
+
+.text_footer1{
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 35px;
+    
+}
+.text_footer2{
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #9b8d8d;
+}
+
+.logo_megamedia{
+    width: 200px;
+    margin-top: 25px;
+}
+.logo_confianza{
+    width: 100px;
+    margin-top: 25px;
+}
+
+.img_footer_logo_mediaset{
+    width: 300px;
+    margin: 25px;
 }
