@@ -62,6 +62,13 @@ body {
 .fa-bars{
     color: white;
     font-size: 28px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box_nav{
+    padding: 0px;
+    
 }
 .fa-bell{
     color: white;
@@ -73,13 +80,10 @@ body {
     font-size: 20px;
     padding: 0 7px 0 7px;
 }
-
 .section_nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    
 }
 .box_directo{
     border: solid white 1px;
@@ -110,7 +114,7 @@ body {
     color: white;
     text-decoration: none;
     margin: 0 15px 0 15px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .fa-magnifying-glass{
@@ -149,7 +153,6 @@ i:hover{
     position: relative;
     background-color: white;
     
-    
 }
 .main_box_text{
     position: absolute;
@@ -164,7 +167,6 @@ i:hover{
     text-align:center;
     font-weight: bold;
     color: white;
-    background-color: rgba(0, 0, 0, 0.438);
 }
 .text_noticia1:hover{
     color: rgba(255, 255, 255, 0.409);
@@ -203,11 +205,13 @@ i:hover{
 .main_box_2{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .section_colum_noticias{
     background-color: white;
     width: 49%;
+    flex-wrap: wrap;
     
 }
 
@@ -229,9 +233,15 @@ i:hover{
     color: white;
 }
 
+
+.text_titular1:hover , .text_titular2:hover , .text_titular3:hover{
+    color: rgb(112, 105, 105);
+}
+
 .sub_section_colum_noticias{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
@@ -260,10 +270,17 @@ i:hover{
 .main_box_img2{
     position: relative;
     background-color: white;
-    
+    margin-bottom: 10px;
     
 }
 
+.main_box_img3{
+    position: relative;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
 .sub_section_colum_noticias2{
     margin-top: 10px;
     display: flex;
@@ -340,9 +357,7 @@ i:hover{
     justify-content: space-between;
     margin: 25px 0 15px 0;
 }
-.img_article_logo{
-    width: 80px;
-}
+
 
 .text_footer1{
     font-family: Roboto, arial, helvetica, sans-serif;
@@ -368,4 +383,10 @@ i:hover{
 .img_footer_logo_mediaset{
     width: 300px;
     margin: 25px;
+}
+
+
+.img_article_logo{
+    width: 110px;
+    height: 50px;
 }

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+/* MAIN HEADER */
+.section_logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0052CC;
+}
+.box_section_main2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+}
+.section_nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0067FF;  
+}
+.img_logo_reaccion{
+    width: 125px;
+}
+
