@@ -1,0 +1,51 @@
+
+.login_form{
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: inset 0px -125px 98px -70px rgba(0,0,0,0.92);
+}
+.container{
+    background-image: url(../assets/images/login.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+form{
+    margin: 10px;
+    padding:10px;
+    width: 400px;
+}
+label{
+    display: flex;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: Roboto, arial, helvetica, sans-serif;
+    color: rgb(6, 1, 1);
+}
+input{
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+select{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    background-color: #a491cc;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    width: 93%;
+    font-family: Roboto, arial, helvetica, sans-serif;
+}
+p{
+    font-family: Roboto, arial, helvetica, sans-serif;
+    text-align: center;
+    margin: 30px;
+}

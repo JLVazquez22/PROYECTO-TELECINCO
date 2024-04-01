@@ -29,8 +29,6 @@ body {
     margin: 3px;
     
 }
-
-
 .main_box_3{
     background-color: white;
     display: flex;
@@ -65,7 +63,7 @@ body {
 }
 .input_text{
     width: 93%;
-    border: ;
+    border: none;
     font-family: Roboto, arial, helvetica, sans-serif;
     font-size: 16px;
     border-style: none;

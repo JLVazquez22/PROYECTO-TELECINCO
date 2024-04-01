@@ -10,29 +10,6 @@
     <script src="https://kit.fontawesome.com/f2da5b14ab.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- HEADER TOP -->
-    <header class="header_top">
-        <div class="box_section_main">
-            <div class="header_top_left">
-                <h1 class="header_top_title">HOY</h1>
-                <p class="header_top_text">Kate Middleton IA</p>
-                <p class="header_top_text">·</p>
-                <p class="header_top_text">Dani Alves libertad</p>
-                <p class="header_top_text">·</p>
-                <p class="header_top_text">Sofía Suescun dependencia</p>
-                <p class="header_top_text">·</p>
-                <p class="header_top_text">Rocco Costanzia detenido</p>
-                <p class="header_top_text">·</p>
-                <p class="header_top_text">Alerta tormenta solar</p>
-                <p class="header_top_text">·</p>
-                <p class="header_top_text">Más noticias</p>
-            </div>
-            <div class="header_top_left">
-                <i class="fa-solid fa-angle-right"></i>
-            </div>
-        </div>
-        
-    </header>
     <!-- MAIN HEADER -->
     <header class="main_header">
         <section class="section_logo">
@@ -41,7 +18,7 @@
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <div class="box_logo">
-                    <img src="../assets/images/logo-telecinco.svg" alt="" class="img_logo_telecinco">
+                    <a href="../index.html"><img src="../assets/images/logo-telecinco.svg" alt="" class="img_logo_telecinco"></a>
                 </div>
                 <div class="box_aside">
                     <aside class="aside_user">
@@ -52,31 +29,30 @@
             </div>
             
         </section>
-        <section class="section_nav">
-            <div class="box_section_main">
-                <div class="box_directo">
-                    <i class="fa-solid fa-circle"></i>
-                    <p class="box_directo_text">EN DIRECTO</p>
-                </div>
-                <div class="box_nav">
-                    <a href="" class="nav_link">PROGRAMAS</a>
-                    <a href="" class="nav_link">SERIES</a>
-                    <a href="" class="nav_link">INFORMATIVOS</a>
-                    <a href="" class="nav_link">SUPERVIVIENTES</a>
-                    <a href="" class="nav_link">LA ISLA DE LAS TENTACIONES</a>
-                    <a href="" class="nav_link">GUÍA TV</a>
-                    <a href="" class="nav_link">OUTDOOR</a>
-                    <a href="" class="nav_link">MITELE</a>
-                    <a href="" class="nav_link">DEPORTES</a>
-                </div>
-                <div class="box_search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </div>
-        </section>
     </header>
     <!-- MAIN CONTAINER -->
     <div class="container">
+        <div class="login_form">
+            <form action="../pages/home.html">
+                <label for="nombre">Usuario:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+                <button type="submit">Iniciar Sesión</button>
+                <p>o <strong>registrese aquí:</strong></p>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="usu">Nombre de Usuario</label>
+                <input type="text" id="usu" name="usu" required>
+        
+                <label for="dni">Contraseña</label>
+                <input type="password" id="dni" name="dni" required>
+        
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
         
         
     </div>
